@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Andrea"
+    },
+    {
+      "id": 2,
+      "username": "Luis"
+    },
+    {
+      "id": 3,
+      "username": "Carlos"
+    },
+    {
+      "id": 4,
+      "username": "John"
+    },
+    {
+      "id": 5,
+      "username": "caruso22"
+    },
+    {
+      "id": 6,
+      "username": "carusso"
+    }
+  ]
+}

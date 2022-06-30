@@ -1,0 +1,77 @@
+[
+  {
+    "_id": "7a6b9849-e03b-4b58-b25a-29e388c08935",
+    "colId": "history",
+    "containerId": "",
+    "name": "Register",
+    "url": "http://localhost:3001/register",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-02T03:57:58.770Z",
+    "modified": "2022-06-02T04:53:16.965Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"username\": \"Andrea\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "aa487a89-99c5-4a26-b67d-e7af54091204",
+    "colId": "history",
+    "containerId": "",
+    "name": "Login",
+    "url": "http://localhost:3001/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-02T03:57:58.770Z",
+    "modified": "2022-06-02T09:02:25.026Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"username\": \"Andrea\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "954b19dd-3ddb-4804-b1ee-85bb4ef4062a",
+    "colId": "history",
+    "containerId": "",
+    "name": "Users",
+    "url": "http://localhost:3001/users",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-06-02T03:57:58.770Z",
+    "modified": "2022-06-02T07:46:35.266Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJBbmRyZWEiLCJpYXQiOjE2NTQxNDgzOTYsImV4cCI6MTY1NDE0ODQyNn0.XASIh-ScdFdG_z0SYwF4A_7tFP3vEZ7JWfZOIMLyGtc"
+    },
+    "tests": []
+  },
+  {
+    "_id": "4880eecd-6cc7-4b43-96b2-17927dc05711",
+    "colId": "history",
+    "containerId": "",
+    "name": "Refresh Token",
+    "url": "http://localhost:3001/refreshToken",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-06-02T03:57:58.770Z",
+    "modified": "2022-06-02T09:02:34.138Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"username\": \"Andrea\",\n    \"refreshToken\": \"hYZzM6D4DPcUt0UJzpHqErM0UAr4h0HytZcXNzR8TTqXOnGHlbnLcgQkk8xKxjSyQlzv3PaktZlyF4svQ7rsYyGQV8T1kijc38Z4HGBQfQI5l6eHOANeHBabuFCFXl32kCJJlPZSOabs8vAwuAxfqwHgzYfsYPre9FBOHQff9LDihG1nTWRBdcLLaZovw8ylX0bXusJNUeaCN69F5I3ZG6g1VRLYd2wntkk3OoIszXzEWsBD0CHpKRkJ28ESAaFO\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
